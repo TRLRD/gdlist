@@ -21,6 +21,7 @@ jobs:
         run: |
           git clone --depth 1 https://github.com/stadust/pointercrate.git source
           rm -rf source/.git
+          rm -rf source/.github/workflows
 
       - name: Push source into gdlist
         run: |
